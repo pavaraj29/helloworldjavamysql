@@ -1,0 +1,6 @@
+replicaCount: 1
+
+image:
+  repository: pavanraj29/helloworldhelm
+  tag: latest
+  pullPolicy: IfNotPresent

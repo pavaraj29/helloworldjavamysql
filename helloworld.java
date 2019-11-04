@@ -4,11 +4,11 @@ import java.sql.*;
 public class helloworld {
    // JDBC driver name and database URL
    static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
-   static final String DB_URL = "jdbc:mysql://mysql:3306/helloworld";
+   static final String DB_URL = "jdbc:mysql://mysql-helm:3306/helloworld";
 
    //  Database credentials
-   static final String USER = "mysql";
-   static final String PASS = "password";
+   static final String USER = "root";
+   static final String PASS = "cGFzc3dvcmQ=";
    
    public static void main(String[] args) {
    Connection conn = null;
